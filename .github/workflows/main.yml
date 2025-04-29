@@ -40,7 +40,7 @@ jobs:
 
       # Upload build artifacts
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.6.2 # latest version as of 29/04/25
         with:
           name: fabric-mod-build
           path: build/libs/*.jar
