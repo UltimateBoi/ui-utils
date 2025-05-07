@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Set up JDK 17 for Minecraft mod development
+      # Set up JDK 21 for fabric mod development
       - name: Set up JDK 21
         uses: actions/setup-java@v3
         with:
